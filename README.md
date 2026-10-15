@@ -94,7 +94,7 @@ Supported languages
 * **SQL** ([*pgformatter*](https://github.com/darold/pgFormatter), [*sqlformat*](https://pypi.org/project/sqlparse/), [*sqlfluff*](https://sqlfluff.com))
 * **Svelte** ([*prettier plugin*](https://github.com/sveltejs/prettier-plugin-svelte))
 * **Swift** ([*swiftformat*](https://github.com/nicklockwood/SwiftFormat))
-* **Terraform** ([*terraform fmt*](https://www.terraform.io/docs/commands/fmt.html))
+* **Terraform** ([*terraform fmt*](https://www.terraform.io/docs/commands/fmt.html), [*tofu fmt*](https://opentofu.org/docs/v1.13/cli/commands/fmt/))
 * **TOML** ([*prettier plugin*](https://github.com/bd82/toml-tools/tree/master/packages/prettier-plugin-toml), [*taplo fmt*](https://taplo.tamasfe.dev/cli/usage/formatting.html), [*oxfmt*](https://oxc.rs/docs/guide/usage/formatter))
 * **TypeScript/TSX** ([*prettier*](https://prettier.io/), [*ts-standard*](https://standardjs.com/), [*prettierd*](https://github.com/fsouza/prettierd), [*deno*](https://deno.land/manual/tools/formatter), [*oxfmt*](https://oxc.rs/docs/guide/usage/formatter))
 * **V** ([*v fmt*](https://github.com/vlang/v))

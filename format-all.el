@@ -94,7 +94,7 @@
 ;; - SQL (pgformatter, sqlformat, sqlfluff)
 ;; - Svelte (prettier plugin)
 ;; - Swift (swiftformat)
-;; - Terraform (terraform fmt)
+;; - Terraform (terraform fmt, tofu format)
 ;; - TOML (prettier plugin, taplo fmt, oxfmt)
 ;; - TypeScript/TSX (prettier, ts-standard, prettierd, deno, oxfmt)
 ;; - Typst (typstyle, typstfmt)
@@ -1336,6 +1336,13 @@ accepting connections."
   (:languages "OCaml")
   (:features)
   (:format (format-all--buffer-easy executable)))
+
+(define-format-all-formatter opentofu-fmt
+  (:executable "tofu")
+  (:install (macos "brew install opentofu"))
+  (:languages "Terraform")
+  (:features)
+  (:format (format-all--buffer-easy executable "fmt" "-no-color" "-")))
 
 (define-format-all-formatter ormolu
   (:executable "ormolu")
